@@ -1,6 +1,6 @@
 {
   "name": "@bixelpitch/cah-cards",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The ultimate collection of cards against humanity card decks, available in various file types and languages!",
   "main": "src/build.js",
   "scripts": {
@@ -27,7 +27,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [ "*" ],
+  "files": [
+    "*"
+  ],
   "dependencies": {
     "fs-extra": "^9.0.1",
     "yaml": "^1.10.0"
