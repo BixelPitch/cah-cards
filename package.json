@@ -24,6 +24,9 @@
     "url": "https://github.com/BixelPitch/cah-cards/issues"
   },
   "homepage": "https://github.com/BixelPitch/cah-cards#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "fs-extra": "^9.0.1",
     "yaml": "^1.10.0"
