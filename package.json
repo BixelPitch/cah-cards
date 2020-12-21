@@ -27,6 +27,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [ "*" ],
   "dependencies": {
     "fs-extra": "^9.0.1",
     "yaml": "^1.10.0"
