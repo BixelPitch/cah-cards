@@ -31,7 +31,8 @@
   },
   "files": [
     "dist",
-    "src"
+    "src",
+    "index.js"
   ],
   "dependencies": {
     "fs-extra": "^9.0.1",
