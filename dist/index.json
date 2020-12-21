@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "languages": [
+      "en"
+    ],
+    "white_cards_translated": 0,
+    "black_cards_translated": 0,
+    "white_cards_original": 501,
+    "black_cards_original": 81,
+    "packs_translated": 0,
+    "packs_original": 1
+  },
+  "packs": {
+    "yml": [
+      "/en/base.yml"
+    ],
+    "json": [
+      "/en/base.json"
+    ]
+  }
+}

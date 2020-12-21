@@ -1,0 +1,36 @@
+{
+  "name": "@bixelpitch/cah-cards",
+  "version": "1.0.0",
+  "description": "The ultimate collection of cards against humanity card decks, available in various file types and languages!",
+  "main": "src/build.js",
+  "scripts": {
+    "test": "node src/build.js",
+    "build": "node src/build.js",
+    "start": "node src/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BixelPitch/cah-cards.git"
+  },
+  "keywords": [
+    "cards-against-humanity",
+    "cards",
+    "against",
+    "humanity"
+  ],
+  "author": "BixelPitch",
+  "license": "BY-NC-SA 2.0",
+  "bugs": {
+    "url": "https://github.com/BixelPitch/cah-cards/issues"
+  },
+  "homepage": "https://github.com/BixelPitch/cah-cards#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
