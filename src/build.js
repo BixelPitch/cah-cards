@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
+const { version } = require('../package.json');
 
 const outputDir = path.join(__dirname, '../dist');
 const inputDir = path.join(__dirname, 'cards');
@@ -9,6 +10,7 @@ fs.rmdirSync(outputDir, { recursive: true });
 fs.mkdirSync(outputDir);
 
 const indexJsonContent = {
+    version,
     stats: {
         languages: [],
         white_cards_translated: 0,
