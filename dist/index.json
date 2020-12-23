@@ -1,21 +1,24 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "stats": {
     "languages": [
+      "de",
       "en"
     ],
-    "white_cards_translated": 0,
-    "black_cards_translated": 0,
-    "white_cards_original": 501,
-    "black_cards_original": 81,
-    "packs_translated": 0,
+    "white_cards_translated": 502,
+    "black_cards_translated": 80,
+    "white_cards_original": 502,
+    "black_cards_original": 80,
+    "packs_translated": 1,
     "packs_original": 1
   },
   "packs": {
     "yml": [
+      "/de/base.yml",
       "/en/base.yml"
     ],
     "json": [
+      "/de/base.json",
       "/en/base.json"
     ]
   }
