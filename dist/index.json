@@ -17,12 +17,12 @@
   },
   "packs": {
     "yml": [
-      "/de/base.yml",
-      "/en/base.yml"
+      "/de/grundspiel.yml",
+      "/en/base-game.yml"
     ],
     "json": [
-      "/de/base.json",
-      "/en/base.json"
+      "/de/grundspiel.json",
+      "/en/base-game.json"
     ]
   }
 }
