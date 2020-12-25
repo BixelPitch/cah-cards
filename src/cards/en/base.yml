@@ -1,7 +1,7 @@
 name: 'Base Game'
 authors:
   - 'BixelPitch'
-original: true
+type: 'official'
 translation:
 language: 'en'
 black_cards:
