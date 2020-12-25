@@ -33,9 +33,9 @@ while ````packs```` is just a simple array with the following form:
   {
     "name": "",           // string
     "authors": [ "" ],    // array of strings, at least one element
-    "original": true,     // boolean
+    "type": "",           // string
     "translation": null,  // null or string
-    "language": "en",     // string
+    "language": "",       // string
     "black_cards": [],    // array of strings
     "white_cards": []     // array of strings
   },
