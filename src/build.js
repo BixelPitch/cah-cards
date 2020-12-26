@@ -1,10 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
-const { version } = require('../package.json');
 
 const outputDir = path.join(__dirname, '../dist');
 const inputDir = path.join(__dirname, 'cards');
+
+const version = '1.1.0';
 
 fs.rmdirSync(outputDir, { recursive: true });
 fs.mkdirSync(outputDir);
@@ -17,8 +18,11 @@ const indexJsonContent = {
         black_cards_translated: 0,
         white_cards_original: 0,
         black_cards_original: 0,
+        white_cards_official: 0,
+        black_cards_official: 0,
         packs_translated: 0,
         packs_original: 0,
+        packs_official: 0,
     },
     packs: {
         yml: [],
@@ -41,10 +45,14 @@ inputSubDirs.forEach((inputSubDir) => {
             fs.mkdirSync(path.join(outputDir, pack.language));
         }
 
-        if (pack.original) {
+        if (pack.type === 'original') {
             indexJsonContent.stats.white_cards_original += pack.white_cards.length;
             indexJsonContent.stats.black_cards_original += pack.black_cards.length;
             indexJsonContent.stats.packs_original += 1;
+        } else if (pack.type === 'official') {
+            indexJsonContent.stats.white_cards_official += pack.white_cards.length;
+            indexJsonContent.stats.black_cards_official += pack.black_cards.length;
+            indexJsonContent.stats.packs_official += 1;
         } else {
             indexJsonContent.stats.white_cards_translated += pack.white_cards.length;
             indexJsonContent.stats.black_cards_translated += pack.black_cards.length;

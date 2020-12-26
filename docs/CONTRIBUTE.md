@@ -11,24 +11,30 @@ be written in kebab-case (lower case, minus as word separation).
 
 Example pack:
 ````yml
-# The name of your card pack. Should match the file name.
+# The name of your card pack. Should match the file name whilst not being against the naming convention.
 name: 'Example Pack'
 # The authors, that's at least you! Enter your nick name or your github user name.
 authors:
   - 'BixelPitch'
-# If you created a new pack or added an official pack to this repo, this property
-# must be set to true. If your pack is an translation, then this should be false.
-original: true
+# There are three types of card packs:
+# - "original": It was created by your own or someone else, but it is not part of
+#   official extent
+# - "official": I think we all know which type that is.
+# - "translation": If you translated a original or official pack here in this repository,
+#   it should have this type.
+type: 'original'
 # If the pack is a translation of an existing pack, mention the pack you translated
 # in the following manner: <language code>/<pack name>. Example:
 # 'en/Example Pack'
-# In this example here, it should be left empty, because this is an original pack.
+# Important to say, that not the file name is meant here!
 translation:
 # The language of this pack.
 language: 'en'
 # Now the fun part: The cards!
 # For the black cards there are some things to be known:
 # - Gaps are marked with three underscores "___".
+# - If no gap is given, the cards are interpreted as having one at the end of
+#   the sentence
 # - Take care of correct spacing before and after the gap symbols. Just imagine
 #   replacing a gap with a word of your choice and ask yourself the question:
 #   "Does this sentence looks well formatted now?" 
@@ -52,7 +58,7 @@ white_cards:
 # Creating a translation
 This process is not much different than creating a new pack. Simply copy the yml
 you want to translate and edit the content, but check out the following first:
-* Don't forget to set the value ````original: false```` and set the correct value
+* Don't forget to set the value ````type: "translated"```` and set the correct value
 for the property ````translation````!
 * Empty the list of the authors and write down your own name.
 * Change the ````language```` field to the new language code.
@@ -60,3 +66,14 @@ for the property ````translation````!
 A last general thing to mention: The aim of this repository is to deliver quality,
 so make sure your translation is a good one. Because it's hard to define "good" in
 this context, don't hestitate to open up an issue for discussion if you are not sure.
+
+Another thing: Translate the meaning, not the words. For example the official packs
+has a lot of cards in dedication to the U.S., like topics, debates and persons, which
+may not be present or known in your country. And what happens if you pick up a card 
+with a name of an politician you don't know? Right, you don't play it. When working
+on an translation, replace things which are known in your country - this makes stuff
+way more funny. For example there is a white card "Mike Pence" in the official base
+pack. This guy was getting popular outside of the U.S. in the presidential election,
+but so popular that you will laugh at every context this card is played? Try find an
+equivalent pick of your country - every country has some conservative old white men
+in high political positions, right? :)

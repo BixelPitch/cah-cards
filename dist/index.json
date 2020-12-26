@@ -7,19 +7,36 @@
     ],
     "white_cards_translated": 502,
     "black_cards_translated": 80,
-    "white_cards_original": 502,
-    "black_cards_original": 80,
+    "white_cards_original": 0,
+    "black_cards_original": 0,
+    "white_cards_official": 1457,
+    "black_cards_official": 325,
     "packs_translated": 1,
-    "packs_original": 1
+    "packs_original": 0,
+    "packs_official": 8
   },
   "packs": {
     "yml": [
-      "/de/base.yml",
-      "/en/base.yml"
+      "/de/grundspiel.yml",
+      "/en/base-game.yml",
+      "/en/family-edition.yml",
+      "/en/the-fifth-expansion.yml",
+      "/en/the-first-expansion.yml",
+      "/en/the-fourth-expansion.yml",
+      "/en/the-second-expansion.yml",
+      "/en/the-sixth-expansion.yml",
+      "/en/the-third-expansion.yml"
     ],
     "json": [
-      "/de/base.json",
-      "/en/base.json"
+      "/de/grundspiel.json",
+      "/en/base-game.json",
+      "/en/family-edition.json",
+      "/en/the-fifth-expansion.json",
+      "/en/the-first-expansion.json",
+      "/en/the-fourth-expansion.json",
+      "/en/the-second-expansion.json",
+      "/en/the-sixth-expansion.json",
+      "/en/the-third-expansion.json"
     ]
   }
 }
