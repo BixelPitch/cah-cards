@@ -1,10 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
-const { version } = require('../package.json');
 
 const outputDir = path.join(__dirname, '../dist');
 const inputDir = path.join(__dirname, 'cards');
+
+const version = '1.2.0';
 
 fs.rmdirSync(outputDir, { recursive: true });
 fs.mkdirSync(outputDir);
