@@ -30,6 +30,8 @@ const indexJsonContent = {
     },
 };
 
+const packs = [];
+
 const inputSubDirs = fs.readdirSync(inputDir);
 inputSubDirs.forEach((inputSubDir) => {
     const yamlFiles = fs.readdirSync(path.join(inputDir, inputSubDir));
@@ -38,6 +40,7 @@ inputSubDirs.forEach((inputSubDir) => {
         const raw = fs.readFileSync(filePath);
         const pack = yaml.parse(raw.toString());
         const filename = yamlFile.split('.')[0];
+        packs.push(pack);
 
         // generate statistics
         if (indexJsonContent.stats.languages.indexOf(pack.language) === -1) {
@@ -72,3 +75,4 @@ inputSubDirs.forEach((inputSubDir) => {
 
 // create index json
 fs.writeFileSync(path.join(outputDir, 'index.json'), JSON.stringify(indexJsonContent, null, 2));
+fs.writeFileSync(path.join(outputDir, 'all.json'), JSON.stringify(packs, null, 2));
