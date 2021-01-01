@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "2.0.0",
   "stats": {
     "languages": [
       "de",
@@ -9,16 +9,19 @@
     "black_cards_translated": 80,
     "white_cards_original": 0,
     "black_cards_original": 0,
-    "white_cards_official": 1457,
-    "black_cards_official": 325,
+    "white_cards_official": 1528,
+    "black_cards_official": 341,
     "packs_translated": 1,
     "packs_original": 0,
-    "packs_official": 8
+    "packs_official": 11
   },
   "packs": {
     "yml": [
       "/de/grundspiel.yml",
+      "/en/90s-nostalgia-pack.yml",
       "/en/base-game.yml",
+      "/en/box-expansion.yml",
+      "/en/canadian-conversion-kit.yml",
       "/en/family-edition.yml",
       "/en/the-fifth-expansion.yml",
       "/en/the-first-expansion.yml",
@@ -29,7 +32,10 @@
     ],
     "json": [
       "/de/grundspiel.json",
+      "/en/90s-nostalgia-pack.json",
       "/en/base-game.json",
+      "/en/box-expansion.json",
+      "/en/canadian-conversion-kit.json",
       "/en/family-edition.json",
       "/en/the-fifth-expansion.json",
       "/en/the-first-expansion.json",

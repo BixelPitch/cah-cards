@@ -595,6 +595,48 @@
     ]
   },
   {
+    "name": "90s Nostalgia Pack",
+    "authors": [
+      "BixelPitch"
+    ],
+    "type": "official",
+    "language": "en",
+    "black_cards": [
+      "Siskel and Ebert have panned ___ as \"poorly conceived\" and \"sloppily executed.\"",
+      "Up next on Nickelodeon: \"Clarissa Explains ___.\"",
+      "I'm a bitch, I'm a lover, I'm a child, I'm ___.",
+      "How did Stella get her groove back?",
+      "Believe it or not, Jim Carrey can do a dead-on impression of ___.",
+      "It's Morphin' Time! Mastodon! Pterodactyl! Triceratops! Sabertooth Tiger! ___!",
+      "Tonight on SNICK: \"Are You Afraid of ___?\""
+    ],
+    "white_cards": [
+      "Sucking the President's dick",
+      "Sunny D! Alright!",
+      "A mulatoo, an albino, a mosquito, and my libido",
+      "Log™",
+      "Jerking off to a 10-second RealMedia clip",
+      "Deregulating the mortgage market",
+      "The Y2K bug",
+      "Wearing Nicolas Cage's face",
+      "Stabbing the shit out a Capri Sun",
+      "Kurt Cobain's death",
+      "Freeing Willy",
+      "Liking big butts and not being able to lie about it",
+      "The Great Cornholio",
+      "Pure Moods, Vol. 1",
+      "Yelling 'girl power!' and doing a high kick",
+      "Pamela Anderson's boobs running in slow motion",
+      "Pizza in the morning, pizza in the evening, pizza at supper time",
+      "Angels interfering in an otherwise fair baseball game",
+      "Getting caught up in the CROSSFIRE™",
+      "Patti Mayonnaise",
+      "Cool 90s up-in-the-front hair",
+      "Several Michael Keatons",
+      "A bus that will explode if it goes under 50 miles per hour"
+    ]
+  },
+  {
     "name": "Base Game",
     "authors": [
       "BixelPitch"
@@ -1187,6 +1229,86 @@
       "Jews, gypsies, and homosexuals",
       "The milkman",
       "Cards Against Humanity"
+    ]
+  },
+  {
+    "name": "Box Expansion",
+    "authors": [
+      "BixelPitch"
+    ],
+    "type": "official",
+    "language": "en",
+    "black_cards": [],
+    "white_cards": [
+      "The biggest, blackest dick",
+      "A box",
+      "A box within a box",
+      "A boxing match with a giant box",
+      "A box of biscuits, a box of mixed biscuits, and a biscuit mixer",
+      "An outbreak of smallbox",
+      "The Boxcar Children",
+      "A world without boxes",
+      "Boxing up my feelings",
+      "A box-shaped man",
+      "A man-shaped box",
+      "Something that looks like a box but turns out to be a crate",
+      "A box that is conscious and wishes it weren't a box",
+      "An alternate universe in which boxes store things inside of people",
+      "The J15 Patriot Assault Box",
+      "A box without hinges, key, or lid, yet golden treasure inside is hid",
+      "Two midgets shitting into a box",
+      "A falcon with a box on its head",
+      "Being a motherfucking box",
+      "Former President George W Box",
+      "Pandora's vagina"
+    ]
+  },
+  {
+    "name": "Canadian Conversion Pack",
+    "authors": [
+      "BixelPitch"
+    ],
+    "type": "official",
+    "language": "en",
+    "black_cards": [
+      "In an attempt to reach a wider audience, the Royal Ontario Museum has opened an interactive exhibit on ___.",
+      "What's the Canadian government using to inspire rural students to suceed?",
+      "in the next Bob and Doug McKenzie adventure, they have to find ___ to uncover a sinister plot involving ___ and ___.",
+      "Air canada guidelines now prohibit ___ on airplanes.",
+      "CTV presents ___, the store of ___.",
+      "In Vancouver it is now legal to ___.",
+      "O Canada, we stand on guard for ___.",
+      "If ___ came in two-fours, Canada would be more ___.",
+      "After unifying the GST and PST, the Government can now afford to provide ___ for ___."
+    ],
+    "white_cards": [
+      "Snotsicles",
+      "Naked News",
+      "Done Cherry's wardrobe",
+      "Syrupy sex with a maple tree",
+      "Terry Fox's prosthetic leg",
+      "Canada: American's hat",
+      "Homo milk",
+      "Mr. Dressup",
+      "The Front de Libération du Québec",
+      "Heritage minutes",
+      "The Royal Canadian Mounted Police",
+      "Stephen Harper",
+      "Burning down the White House",
+      "Being Canadian",
+      "The Famous Five",
+      "A Molson muscle",
+      "An icy hand job from an Edmonton hooker",
+      "Poutine",
+      "Schmirler the Curler",
+      "The Official Languages Act. La Loi sure les langues officielles",
+      "Newfies",
+      "The CBC",
+      "Graham Greene playing the same First Nations character on every TV show",
+      "Killing a moose with your bare hands",
+      "tim Hortons",
+      "Quintland",
+      "Karla Momolka"
     ]
   },
   {
