@@ -7,7 +7,7 @@ const inputDir = path.join(__dirname, 'cards');
 
 const version = '2.0.0';
 
-fs.rmdirSync(outputDir, { recursive: true });
+fs.rmSync(outputDir, { recursive: true });
 fs.mkdirSync(outputDir);
 
 const indexJsonContent = {
